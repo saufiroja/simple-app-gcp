@@ -14,5 +14,5 @@ func main() {
 		}
 	})
 
-	log.Fatalf("Error: %v", http.ListenAndServe(":80", mux))
+	log.Fatalf("Error: %v", http.ListenAndServe(":8080", mux))
 }
